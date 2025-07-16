@@ -84,7 +84,7 @@ const Menu = () => {
               Skills
             </button>
           </li>
-          <li>
+          {/* <li>
             <button
               onClick={() => scrollToSection('projects')}
               className={classNames(
@@ -96,7 +96,7 @@ const Menu = () => {
             >
               Projects
             </button>
-          </li>
+          </li> */}
           <li>
             <button
               onClick={() => scrollToSection('contact')}
@@ -198,7 +198,7 @@ const Menu = () => {
                   >
                     Skills
                   </button>
-                  <button
+                  {/* <button
                     onClick={() => scrollToSection('projects')}
                     className={classNames(
                       'group flex w-full items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-indigo-600',
@@ -206,7 +206,7 @@ const Menu = () => {
                     )}
                   >
                     Projects
-                  </button>
+                  </button> */}
                   <button
                     onClick={() => scrollToSection('contact')}
                     className={classNames(

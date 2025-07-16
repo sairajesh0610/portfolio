@@ -31,9 +31,9 @@ const Home: NextPage = () => {
       <section id="skills" className="container py-8">
         <SkillsSection />
       </section>
-      <section id="projects" className="container py-8">
+      {/* <section id="projects" className="container py-8">
         <RecentWorkSection />
-      </section>
+      </section> */}
       <section id="contact" className="container py-8">
         <ContactSection />
       </section>
